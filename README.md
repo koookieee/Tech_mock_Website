@@ -1,4 +1,28 @@
 # Getting Started with Create React App
+The project has been built using reactjs, javascript, css and html.
+
+
+![alt text](./src/x1.png)
+
+
+![alt text](./src/x2.png)
+
+
+![alt text](./src/x3.png)
+
+
+![alt text](./src/x4.png)
+
+
+![alt text](./src/x5.png)
+
+
+![alt text](./src/x6.png)
+
+
+![alt text](./src/x7.png)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

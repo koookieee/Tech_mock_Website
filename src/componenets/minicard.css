@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+
+
+.minidiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mini-a {
+    display: flex;
+    flex: 0 1 8rem;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff4a;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-shadow: 2px 14px 20px 6px rgba(224, 230, 235, 0.58);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    height: 48px;
+    width: 190px;
+  }
+  
+  .mini-a:hover {
+    background: #fff; /* Change the background color to white */
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Add a glowing effect */
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.2); /* Adjust the spread and shadow color */
+
+  }
+  
+  
+  .mini-imd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem; /* Add margin between image and text */
+  }
+  
+  .mini-img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .minite {
+    flex-grow: 1;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  

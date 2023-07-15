@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+
+:root {
+    --foreground-rgb: 255,255,255;
+    --bg-color-1: #fff;
+    --bg-color-2: #000;
+    --bg-color-3: #1e1e1e;
+    --txt-color-1: #fff;
+    --txt-color-2: #000;
+    --txt-color-3: silver;
+    --hero-color:#1D2233;
+}
+
+.serv-sec {
+    background: #f5f5f5;
+    color: #000;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .serv-h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+  }
+  
+  .serv-p {
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.75;
+    padding: 0 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .minidiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mini-a {
+    display: flex;
+    flex: 0 1 8rem;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff4a;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-shadow: 2px 14px 20px 6px rgba(224, 230, 235, 0.58);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    height: 48px;
+    width: 190px;
+  }
+  
+  .mini-imd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+  }
+  
+  .mini-img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .minite {
+    flex-grow: 1;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+  .minicard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+.btn-div-s{
+    margin-top: 5%;
+}
+  .btn-a-s{
+    cursor: pointer;
+  }
+
+  .btn-s {
+    border: 1px solid #ff5f08;
+    display: inline-block;
+    color: var(--txt-color-1);
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    color: #ff5f08;
+    background: var(--bg-color-1);
+    border: 1px solid #ff5f08;
+    font-weight: bold;
+    transition: all .3s ease;
+  }
+  
+  .btn-s:hover {
+    background-color: #ff5f08;
+    color: #fff;
+  }
+  

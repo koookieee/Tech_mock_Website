@@ -1,0 +1,96 @@
+.pf-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background: #1E1E1E;
+    color: #f0f0f0;
+  }
+  
+  @media (min-width: 768px) {
+    .pf-div {
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+  }
+  
+  .pf-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pf-about,
+  .pf-se,
+  .pf-in,
+  .pf-so {
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .pf-about h3,
+  .pf-se h3,
+  .pf-in h3,
+  .pf-so h3 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pf-p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin: 1.5rem 0;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  .pf-p:nth-child(2),
+  .pf-p:nth-child(3) {
+    margin-bottom: 2.5rem;
+  }
+  
+  .pf-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pf-ul > li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #929BA8;
+  }
+  
+  .pf-ul > li:hover {
+    color: lightblue;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pf-p {
+    line-height: 2.5rem;
+  }
+  
+  .fs-icon {
+    margin: 1rem 1rem 1rem 0;
+  }
+  
+  .icon-32 {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+  
+  @media (max-width: 767px) {
+    .pf-column {
+      margin-bottom: 2rem;
+    }
+  }
+  

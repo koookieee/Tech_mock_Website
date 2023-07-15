@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+.tg {
+  padding: 2.5rem 0;
+  position: relative;
+  background: #1d2233;
+  color: #f0f0f0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.tg::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(100deg, #fb2576, #5e76fd 50%, #6df1af 110%);
+}
+
+.h2-tg {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 2.5rem;
+}
+
+.p-tg {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 3.5rem;
+  background: linear-gradient(100deg, #fb2576, #5e76fd 50%, #6df1af 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.a-tg {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  color: var(--txt-color-1);
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  background-image: linear-gradient(145deg, #dd0255, #3047c9 30%, #441fff 65%, #02c362 85%);
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 2.5rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, .45);
+  transition: background-size 0.3s ease;
+  background-size: 100% 100%;
+}
+
+.a-tg:hover {
+  background-size: 150% 150%;
+}
+
+@media (max-width: 768px) {
+  .h2-tg {
+    font-size: 2rem;
+  }
+
+  .p-tg {
+    font-size: 2.5rem;
+  }
+
+  .a-tg {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}

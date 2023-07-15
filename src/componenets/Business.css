@@ -1,0 +1,126 @@
+:root {
+    --foreground-rgb: 255,255,255;
+    --bg-color-1: #fff;
+    --bg-color-2: #000;
+    --bg-color-3: #1e1e1e;
+    --txt-color-1: #fff;
+    --txt-color-2: #000;
+    --txt-color-3: silver;
+    --hero-color:#1D2233;
+  }
+  
+  .bus-div {
+    background-color: #1F222E;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .bus-sect {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .tx-h3 {
+    padding: 16px;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--txt-color-1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .p4 {
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.75;
+    padding: 0 1rem;
+    color: #ebebeb;  
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem; /* Adjust the margin as desired */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    /* Adjust the card size as desired */
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #242836;
+    padding: 1rem;
+    border: 1px solid #666;
+    margin: 0.5rem;
+    color: var(--txt-color-1);
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .a-card {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .card-title {
+    margin: 16px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--txt-color-1);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 15px; 
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .card-subtitle {
+    margin: 8px 0px 16px;
+    font-size: 14px;
+    color: #279DF5;
+    text-align: left;
+    margin: 0;
+    margin-top: 15px; 
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .im-im {
+    width: 280px;
+    height: 180px;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+  
+  .card:hover .card-subtitle {
+    color: orange;
+  }
+  
+  .card:hover .im-card {
+    transform: scale(1.1);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .bus-sect {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .bus-sect {
+      font-size: 1rem;
+    }
+    .card {
+      width: 100%;
+      margin: 0.5rem;
+    }
+  }
+  
