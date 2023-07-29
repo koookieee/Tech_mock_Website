@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tech_mock_Website/static/css/main.93ca209c.css",
+    "main.js": "/Tech_mock_Website/static/js/main.74ed4405.js",
+    "static/js/787.7c7e4fb1.chunk.js": "/Tech_mock_Website/static/js/787.7c7e4fb1.chunk.js",
+    "static/media/logo.svg": "/Tech_mock_Website/static/media/logo.0653ed78f2975459363404232a1973e0.svg",
+    "index.html": "/Tech_mock_Website/index.html",
+    "main.93ca209c.css.map": "/Tech_mock_Website/static/css/main.93ca209c.css.map",
+    "main.74ed4405.js.map": "/Tech_mock_Website/static/js/main.74ed4405.js.map",
+    "787.7c7e4fb1.chunk.js.map": "/Tech_mock_Website/static/js/787.7c7e4fb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93ca209c.css",
+    "static/js/main.74ed4405.js"
+  ]
+}
