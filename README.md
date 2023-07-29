@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 The project has been built using reactjs, javascript, css and html.
 
+Check out at https://koookieee.github.io/Tech_mock_Website/
+
+
+
 
 ![alt text](./src/x1.png)
 
